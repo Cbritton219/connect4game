@@ -1,0 +1,32 @@
+#board {
+    align-content: center;
+}
+
+#board td {
+    width: 60px;
+    height: 60px;
+    border: solid 1px black;
+}
+
+.piece {
+    width: 80%;
+    margin: 6px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.piece.p1 {
+    background-color: cadetblue;
+}
+
+.piece.p2 {
+    background-color: black;
+}
+
+#column-top td {
+    border: dashed 1px lightgray;
+}
+
+#column-top td:hover {
+    background-color: lightsalmon;
+}
